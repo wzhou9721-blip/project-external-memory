@@ -1,5 +1,7 @@
 # Project External Memory
 
+[中文说明](README.zh-CN.md)
+
 A Codex skill for keeping durable project handoff state across long conversations, context compaction, restarts, and future sessions.
 
 This skill helps Codex bind a project to one compact memory file through `AGENTS.md`. The memory file is treated as a living handoff, not an append-only diary: stale state is replaced, obsolete snapshots are deleted, and bulky history is archived only when chronology matters.

@@ -2,21 +2,21 @@
 
 [中文说明](README.zh-CN.md)
 
-A Codex skill for keeping durable project handoff state across long conversations, context compaction, restarts, and future sessions.
+A reusable skill for keeping durable project handoff state across long conversations, context compaction, restarts, and future sessions.
 
-This skill helps Codex bind a project to one compact memory file through `AGENTS.md`. The memory file is treated as a living handoff, not an append-only diary: stale state is replaced, obsolete snapshots are deleted, and bulky history is archived only when chronology matters.
+This skill helps an AI coding agent bind a project to one compact memory file through `AGENTS.md`. The memory file is treated as a living handoff, not an append-only diary: stale state is replaced, obsolete snapshots are deleted, and bulky history is archived only when chronology matters.
 
 ## What It Does
 
 - Adds or updates `AGENTS.md` continuity rules for a project.
 - Creates one primary project memory file.
 - Keeps durable state concise and operational.
-- Encourages Codex to read project memory before making assumptions.
-- Encourages Codex to update memory after substantial durable changes.
+- Encourages the agent to read project memory before making assumptions.
+- Encourages the agent to update memory after substantial durable changes.
 
 ## When To Use It
 
-Use this skill for long-running repos, operational projects, services, bots, monitors, migrations, or any project where future Codex sessions need current state without relying on chat history.
+Use this skill for long-running repos, operational projects, services, bots, monitors, migrations, or any project where future agent sessions need current state without relying on chat history.
 
 Example prompts:
 
@@ -34,13 +34,13 @@ Review the external memory and compact stale notes.
 
 ## Install
 
-Copy the `project-external-memory` folder into your Codex skills directory:
+Copy the `project-external-memory` folder into your agent's skills directory. For Codex, that is usually:
 
 ```text
 ~/.codex/skills/project-external-memory
 ```
 
-On Windows, this is usually:
+On Windows with Codex, this is usually:
 
 ```text
 C:\Users\<YOU>\.codex\skills\project-external-memory

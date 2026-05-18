@@ -58,7 +58,7 @@ Adapt the placeholders below to the target repo. Keep repo-specific trigger name
 
 ## Scope
 
-- Applies to Codex sessions working on `<PROJECT_NAME>`.
+- Applies to AI agent sessions working on `<PROJECT_NAME>`.
 - Treat this file as the short durable handoff record, not an append-only diary.
 - Keep this primary file compact. Move large historical detail to `memory.archive-YYYYMMDD-HHMMSS.md` and leave a pointer here.
 - Primary workspace path:
@@ -108,7 +108,7 @@ Adapt the placeholders below to the target repo. Keep repo-specific trigger name
 
 ## Scope
 
-- Applies to Codex sessions working on Project Atlas.
+- Applies to AI agent sessions working on Project Atlas.
 - Primary workspace path: `C:\work\project-atlas`
 - Treat this file as the short durable handoff record, not a timeline.
 

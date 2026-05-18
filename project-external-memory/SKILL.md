@@ -1,6 +1,6 @@
 ---
 name: project-external-memory
-description: Set up and maintain durable external memory for long-running or multi-session projects. Use when Codex needs AGENTS.md continuity rules, a repo-level handoff file, persistent project memory, compact operational state, cross-session continuity, durable state updates, or a way to remember project status without relying on chat history.
+description: Set up and maintain durable external memory for long-running or multi-session projects. Use when an AI coding agent needs AGENTS.md continuity rules, a repo-level handoff file, persistent project memory, compact operational state, cross-session continuity, durable state updates, or a way to remember project status without relying on chat history.
 ---
 
 # Project External Memory
@@ -19,7 +19,7 @@ The memory file is a living handoff, not an append-only diary. Keep it compact, 
    - Prefer an ASCII-compatible path when tools are sensitive to non-ASCII paths.
    - Keep one primary file; avoid multiple competing sources of truth.
 3. Create or update `AGENTS.md`.
-   - Add a Skills rule that tells Codex to use `$project-external-memory` for this repo's long-running work.
+   - Add a Skills rule that tells the agent to use `$project-external-memory` for this repo's long-running work.
    - Add an External Memory section naming the canonical memory file path.
    - Add Working Rules that require reading the memory file before assumptions and updating it after substantial changes.
    - Keep project-specific trigger names in `AGENTS.md`, not in this skill.

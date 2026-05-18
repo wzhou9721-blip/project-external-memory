@@ -1,0 +1,4 @@
+interface:
+  display_name: "Project External Memory"
+  short_description: "Keep project handoff state across Codex sessions."
+  default_prompt: "Set up durable project memory for this repo with AGENTS.md and one compact handoff file."

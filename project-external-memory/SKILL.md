@@ -52,14 +52,23 @@ Store:
 - important paths, commands, dashboards, and entry points
 - known bugs, risks, rate limits, and workarounds
 - configuration or workflow decisions that future sessions must preserve
+- project-level goals, quality standards, collaboration preferences, and risk tolerance when they shape future work
 - the next likely action when the system is mid-transition
 
 Do not store:
 - casual chat or meeting-style narration
 - praise, opinions, or conversational filler
+- private diary-like notes or personal details unrelated to future project work
 - secrets or tokens
 - long raw logs when a concise conclusion is enough
 - repeated dated entries whose only new information is a superseded PID, timestamp, or validation run
+
+## Project Preferences
+
+- It is valid to preserve durable project preferences when they affect future work.
+- Examples: preferred collaboration style, quality bar, product direction, testing expectations, risk tolerance, naming conventions, or "do not repeat" lessons.
+- Keep these preferences project-scoped. Do not record broad personal profiling, emotional commentary, or casual chat.
+- Place them in a stable section such as `Project Preferences` or `Collaboration Preferences`, and update them in place when they change.
 
 ## Update Style
 

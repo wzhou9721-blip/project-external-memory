@@ -11,6 +11,7 @@ This skill helps an AI coding agent bind a project to one compact memory file th
 - Adds or updates `AGENTS.md` continuity rules for a project.
 - Creates one primary project memory file.
 - Keeps durable state concise and operational.
+- Preserves project-level goals, preferences, and collaboration principles.
 - Encourages the agent to read project memory before making assumptions.
 - Encourages the agent to update memory after substantial durable changes.
 
@@ -60,3 +61,5 @@ project-external-memory/
 ## Notes
 
 The skill itself stays generic. Project-specific names, paths, triggers, and operational state belong in each repo's `AGENTS.md` and primary memory file.
+
+The memory file may include durable project preferences, such as quality standards, collaboration style, product goals, and risk tolerance. It should not capture casual chat, praise, private diary-like notes, or personal details that are not needed for future project work.

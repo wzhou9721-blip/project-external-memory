@@ -2,16 +2,18 @@
 
 [中文说明](README.zh-CN.md)
 
-A reusable skill for keeping durable project handoff state across long conversations, context compaction, restarts, and future sessions.
+A reusable skill for keeping project memory across long conversations, context compaction, restarts, and future sessions.
 
-This skill helps an AI coding agent bind a project to one compact memory file through `AGENTS.md`. The memory file is treated as a living handoff, not an append-only diary: stale state is replaced, obsolete snapshots are deleted, and bulky history is archived only when chronology matters.
+It helps an AI coding agent remember not only current technical state, but also durable project goals, quality standards, collaboration preferences, and "do not repeat" lessons.
+
+The skill binds a project to one compact memory file through `AGENTS.md`. That memory file is treated as a living handoff, not an append-only diary: stale state is replaced, obsolete snapshots are deleted, and bulky history is archived only when chronology matters.
 
 ## What It Does
 
 - Adds or updates `AGENTS.md` continuity rules for a project.
 - Creates one primary project memory file.
-- Keeps durable state concise and operational.
 - Preserves project-level goals, preferences, and collaboration principles.
+- Keeps durable state concise and operational.
 - Encourages the agent to read project memory before making assumptions.
 - Encourages the agent to update memory after substantial durable changes.
 

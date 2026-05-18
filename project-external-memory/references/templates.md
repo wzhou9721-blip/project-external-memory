@@ -84,6 +84,11 @@ Adapt the placeholders below to the target repo. Keep repo-specific trigger name
 - `<RISK>`:
   - `<WORKAROUND_OR_DECISION>`
 
+## Project Preferences
+
+- `<PREFERENCE>`:
+  - `<WHY_IT_SHAPES_FUTURE_WORK>`
+
 ## Durable Decisions
 
 - `<DECISION>`:
@@ -98,7 +103,7 @@ Adapt the placeholders below to the target repo. Keep repo-specific trigger name
 - Replace stale state instead of appending another dated duplicate.
 - Delete obsolete PID/status snapshots after newer state supersedes them.
 - Summarize completed investigations instead of preserving raw logs.
-- Preserve only durable facts, current commands, active risks, routing, and recent decisions.
+- Preserve only durable facts, current commands, active risks, routing, project preferences, and recent decisions.
 ```
 
 ## Minimal Memory File Example
@@ -129,6 +134,13 @@ Adapt the placeholders below to the target repo. Keep repo-specific trigger name
 
 - CI deploy token is being rotated:
   - Do not attempt production deploys until the owner confirms the new token is active.
+
+## Project Preferences
+
+- Reliability over cleverness:
+  - Prefer tested, boring workflows for deployment and monitor recovery.
+- Compact handoffs:
+  - Keep memory current-state oriented, not diary-like.
 
 ## Durable Decisions
 
